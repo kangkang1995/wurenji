@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>航拍视频</title>
+	<link rel="stylesheet" type="text/css" href="./style/hangpai.css">
+    <script src="./js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="./js/gao.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jQueryRotateCompressed.2.2.js"></script>
+</head>
+<body>
+	<div class="dafanhui">返回</div>
+	<div id="nav">
+		<div class="underlying">
+		<div class="logo"><a href="#"><img src="image/g17.png"></a></div>
+			<div class="box">
+				<ul class="navigation">
+					<li><a href="./Index.html">首页</a></li>
+					<li><a href="./gaoindex.html">公司概况</a></li>
+					<li><a href="#">招商合作</a></li>
+					<li><a href="./towork.html">解决方案</a></li>
+					<li><a class="active" href="./gengindex.html">航拍视频</a></li>
+					<li><a href="./Index.html">技术支持</a></li>
+				</ul>
+				<img src="image/g20.png"/>
+				<input type="text" name="text" placeholder="搜索" />
+			</div>
+		</div>
+	</div>
+	<!-- 导航 -->
+	<div class="banner">
+		<img src="./image/d_02.png">
+	</div>
+
+	<div class="weizhi">
+		<a href="" class="a1">首页</a>
+		<a href="" class="a2">>航拍视频</a>
+	</div>
+
+
+	<ul class="content clearfix">
+		<li class="li1 clearfix">
+			<a href="">
+				<img src="./image/d_09.png">
+				<div class="hide1"><img src="./image/d_23.png"></div>
+			</a>
+
+			<div class="xiangcun1">
+				<h3>APP航拍无人机————航拍乡村美景</h3>
+				<p>APP无人机拍摄美丽的中国乡村，中国乡村具有农舍、牲<br/>畜棚圈、仓库场院、道路、水渠、宅旁绿地，以及特定环<br/>境和专业化生产条件下特有的附属设施等。在大山包围的<br/>村庄，具有一种与大自然和谐融为一体的唯美。</p>
+			</div>
+		</li>
+			
+
+
+		<li class="li2 clearfix">
+			<a href="">
+				<img src="./image/d_05.png">
+				<div class="hide2"><img src="./image/d_23.png"></div>
+			</a>
+
+			<div class="xiangcun2">
+				<h3>APP航拍无人机————俊美的中国建筑</h3>
+				<p>无人机可以拍摄出高空的建筑夜晚美景，给人以不一般的视<br/>觉享受，建筑夜景是非常美妙的，在无人机的拍摄下，更能<br/>显现出现代化大都市的城市美景。</p>
+			</div>
+		</li>
+
+	</ul>
+
+
+
+	<ul class="content content2 clearfix">
+		<li class="li1 clearfix">
+			<a href="">
+				<img src="./image/d_13.png">
+				<div class="hide1"><img src="./image/d_23.png"></div>
+			</a>
+
+			<div class="xiangcun1">
+				<h3>APP航拍无人机————拍摄旷野之美</h3>
+				<p>APP无人机拍摄美丽的中国乡村，中国乡村具有农舍、牲<br/>畜棚圈、仓库场院、道路、水渠、宅旁绿地，以及特定环<br/>境和专业化生产条件下特有的附属设施等。在大山包围的<br/>村庄，具有一种与大自然和谐融为一体的唯美。</p>
+			</div>
+		</li>
+			
+
+
+		<li class="li2 clearfix">
+			<a href="">
+				<img src="./image/d_17.png">
+				<div class="hide2"><img src="./image/d_23.png"></div>
+			</a>
+
+			<div class="xiangcun2">
+				<h3>APP航拍无人机————精美的自然风光</h3>
+				<p>无人机航拍自然风光，无论是高山流水，还是海边美景，无<br/>论是微观露珠，还是宏观草原，自然风光，都是一种视觉享<br/>受。自然风景，真的可以令人陶醉。</p>
+			</div>
+		</li>
+
+	</ul>
+
+
+	<div class="content li-end clearfix">
+	<div class="li1 clearfix">
+			<a href="">
+				<img src="./image/d_13.png">
+				<div class="hide1"><img src="./image/d_23.png"></div>
+			</a>
+
+			<div class="xiangcun1">
+				<h3>APP无人机系统————民用的风景画面</h3>
+				<p>无人机拍摄美景，无论是名胜古迹，还是高山美景，每一次<br/>的拍摄都是自然的美景，我们可以从高空俯瞰，让我们领略<br/>不同的美景所呈现的不同视觉，不同的角度，就是不同的景<br/>色呈现，这就是绝妙的风景画面。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 分页 -->
+	<div class="centent5">
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    <div>
+        <ul class="pagination" id="pagination">
+        </ul>
+        <input type="hidden" id="PageCount" runat="server" />
+        <input type="hidden" id="PageSize" runat="server" value="8" />
+        <input type="hidden" id="countindex" runat="server" value="10"/>
+        <!--设置最多显示的页码数 可以手动设置 默认为7-->
+        <input type="hidden" id="visiblePages" runat="server" value="7" />
+    </div>
+    <script src="./js/myPage.js" type="text/javascript"></script>
+    </form>
+    </div>
+
+<!-- 结束 -->
+    <div id="end">
+	<div class="bottom">
+			<ul class="bottom-ul">
+				<li><a href="#">集团介绍</a></li>
+				<li><a href="#">新闻资讯</a></li>
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">技术支持</a></li>
+				<li><a class="xiaoshi" href="#">购买渠道</a></li>
+			</ul>
+			<ul class="bottom-one">
+				<li><a href="#">公司概况</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<ul class="bottom-one">
+				<li><a href="#">公司概况</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<ul class="bottom-one">
+				<li><a href="#">公司概况</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<ul class="bottom-one">
+				<li><a href="#">公司概况</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<ul class="bottom-one">
+				<li><a href="#">公司概况</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+	</div>
+	<div class="copyright">
+		<div class="copyright-one"><p>网站问题反馈 <a hrfe="#">点击这里</a><br/> copyright 2016 AIN版权所有 隐私政策 使用条款
+		网站地图<br/>粤ICP备15057791号-1</p></div>
+		<div class="bottom-icon">
+			<ul class="bottom-icon-1">
+				<li><a href="#"><img src="image/g9.png"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/zzsc.js"></script>
+</body>
+</html>
